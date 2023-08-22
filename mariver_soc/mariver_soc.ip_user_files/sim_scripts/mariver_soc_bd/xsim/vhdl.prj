@@ -1,0 +1,29 @@
+vhdl lib_cdc_v1_0_2  \
+"../../../../mariver_soc.srcs/sources_1/bd/mariver_soc_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_proc_sys_reset_0_0/sim/mariver_soc_bd_proc_sys_reset_0_0.vhd" \
+
+vhdl lib_pkg_v1_0_2  \
+"../../../../mariver_soc.srcs/sources_1/bd/mariver_soc_bd/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd" \
+
+vhdl axi_lite_ipif_v3_0_4  \
+"../../../../mariver_soc.srcs/sources_1/bd/mariver_soc_bd/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_axi_iic_0_0/sim/mariver_soc_bd_axi_iic_0_0.vhd" \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_axi_intc_0_0/sim/mariver_soc_bd_axi_intc_0_0.vhd" \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_axi_ethernetlite_0_0/sim/mariver_soc_bd_axi_ethernetlite_0_0.vhd" \
+
+vhdl lib_srl_fifo_v1_0_2  \
+"../../../../mariver_soc.srcs/sources_1/bd/mariver_soc_bd/ip/mariver_soc_bd_uart16550_wrapper_0_0/src/axi_uart16550_0/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+
+vhdl axi_uart16550_v2_0_22  \
+"../../../../mariver_soc.srcs/sources_1/bd/mariver_soc_bd/ip/mariver_soc_bd_uart16550_wrapper_0_0/src/axi_uart16550_0/hdl/axi_uart16550_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_uart16550_wrapper_0_0/src/axi_uart16550_0/sim/axi_uart16550_0.vhd" \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_axi_bram_ctrl_0_0/sim/mariver_soc_bd_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/mariver_soc_bd/ip/mariver_soc_bd_axi_quad_spi_0_0/sim/mariver_soc_bd_axi_quad_spi_0_0.vhd" \
+
+nosort

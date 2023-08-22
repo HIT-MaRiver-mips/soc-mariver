@@ -1,0 +1,99 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.441941",
+   "Default View_TopLeft":"-310,-362",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port MII_0 -pg 1 -lvl 9 -x 3000 -y -420 -defaultsOSRD
+preplace port MDIO_0 -pg 1 -lvl 9 -x 3000 -y -400 -defaultsOSRD
+preplace port IIC_0 -pg 1 -lvl 9 -x 3000 -y -280 -defaultsOSRD
+preplace port UART_0 -pg 1 -lvl 9 -x 3000 -y 230 -defaultsOSRD
+preplace port LCD_0 -pg 1 -lvl 9 -x 3000 -y 520 -defaultsOSRD
+preplace port PS2_0 -pg 1 -lvl 9 -x 3000 -y 690 -defaultsOSRD
+preplace port Board_GPIO_1_0 -pg 1 -lvl 9 -x 3000 -y 710 -defaultsOSRD
+preplace port VGA_0 -pg 1 -lvl 9 -x 3000 -y 900 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 9 -x 3000 -y 1170 -defaultsOSRD
+preplace port SPI_0_0 -pg 1 -lvl 9 -x 3000 -y 1380 -defaultsOSRD
+preplace port clk_in1_0 -pg 1 -lvl 0 -x -720 -y -70 -defaultsOSRD
+preplace port resetn_0 -pg 1 -lvl 0 -x -720 -y -90 -defaultsOSRD
+preplace port ts_int_0 -pg 1 -lvl 9 -x 3000 -y -570 -defaultsOSRD
+preplace port ts_rstn_0 -pg 1 -lvl 9 -x 3000 -y -550 -defaultsOSRD
+preplace inst Mariver_CPU_0 -pg 1 -lvl 2 -x 270 -y -410 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -100 -y -80 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 270 -y 160 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 3 -x 640 -y -270 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 4 -x 1300 -y -330 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 1680 -y 250 -defaultsOSRD
+preplace inst touchscreen_rst_0 -pg 1 -lvl 7 -x 2520 -y -560 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 7 -x 2520 -y -260 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 7 -x 2520 -y 60 -defaultsOSRD
+preplace inst axi_ethernetlite_0 -pg 1 -lvl 7 -x 2520 -y -400 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 6 -x 2110 -y 190 -defaultsOSRD
+preplace inst uart16550_wrapper_0 -pg 1 -lvl 7 -x 2520 -y 240 -defaultsOSRD
+preplace inst general_reg_controll_0 -pg 1 -lvl 7 -x 2520 -y 720 -defaultsOSRD
+preplace inst lcd_controller_0 -pg 1 -lvl 7 -x 2520 -y 530 -defaultsOSRD
+preplace inst dma_controller_0 -pg 1 -lvl 7 -x 2520 -y 380 -defaultsOSRD
+preplace inst vga_controller_0 -pg 1 -lvl 7 -x 2520 -y 890 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 7 -x 2520 -y 1050 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 8 -x 2870 -y 1050 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 7 -x 2520 -y 1210 -defaultsOSRD
+preplace inst axi_protocol_convert_2 -pg 1 -lvl 6 -x 2110 -y 30 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 7 -x 2520 -y 1390 -defaultsOSRD
+preplace inst axi_protocol_convert_3 -pg 1 -lvl 6 -x 2110 -y 1360 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_cpu 1 1 2 0 -290 N
+preplace netloc clk_in1_0_1 1 0 1 N -70
+preplace netloc resetn_0_1 1 0 2 -700 140 N
+preplace netloc clk_wiz_0_locked 1 1 6 0 260 N 260 N 260 1450 590 N 590 2260
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 90 -270 450
+preplace netloc clk_wiz_0_clk_pehi 1 1 6 20 -130 470 -130 820 -130 1500 -130 1850 -80 2300
+preplace netloc xlconcat_0_dout 1 6 1 2270 90n
+preplace netloc axi_ethernetlite_0_ip2intc_irpt 1 5 3 1890 -170 NJ -170 2680
+preplace netloc axi_iic_0_iic2intc_irpt 1 5 3 1900 -160 NJ -160 2670
+preplace netloc axi_intc_0_irq 1 1 7 40 -140 N -140 N -140 NJ -140 NJ -140 NJ -140 2680
+preplace netloc uart16550_wrapper_0_ip2intc_irpt 1 1 7 30 -90 N -90 N -90 NJ -90 NJ -90 NJ -90 2670
+preplace netloc dma_controller_0_irq 1 1 7 80 -150 NJ -150 NJ -150 1480J -160 1880J -130 NJ -130 2690
+preplace netloc general_reg_controll_0_irq_keyboard 1 1 7 70 -120 NJ -120 NJ -120 NJ -120 NJ -120 NJ -120 2730
+preplace netloc general_reg_controll_0_irq 1 1 7 50 -110 NJ -110 NJ -110 NJ -110 NJ -110 NJ -110 2700
+preplace netloc clk_wiz_0_clk_vga 1 1 6 NJ -60 NJ -60 NJ -60 1470J -180 NJ -180 2350
+preplace netloc clk_wiz_0_clk_mig 1 1 6 10J -160 NJ -160 830J -200 NJ -200 NJ -200 2330
+preplace netloc mig_7series_0_ui_clk 1 4 4 1520 1480 NJ 1480 NJ 1480 2670
+preplace netloc mig_7series_0_init_calib_complete 1 1 7 60 -170 NJ -170 840J -190 NJ -190 NJ -190 2360J -180 2740
+preplace netloc Net 1 7 2 NJ -570 NJ
+preplace netloc touchscreen_rst_0_ts_rstn 1 7 2 NJ -550 NJ
+preplace netloc proc_sys_reset_0_interconnect_aresetn1 1 2 5 460 -100 850 -100 1460 -100 1860 -100 2310
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 5 3 1910 110 2360J 150 2720
+preplace netloc axi_quad_spi_0_SPI_0 1 7 2 NJ 1380 NJ
+preplace netloc axi_protocol_convert_2_M_AXI 1 6 1 N 30
+preplace netloc mig_7series_0_DDR3 1 7 2 NJ 1170 NJ
+preplace netloc axi_ethernetlite_0_MDIO 1 7 2 NJ -400 NJ
+preplace netloc lcd_controller_0_LCD 1 7 2 NJ 520 NJ
+preplace netloc axi_ethernetlite_0_MII 1 7 2 NJ -420 NJ
+preplace netloc vga_controller_0_VGA 1 7 2 NJ 900 NJ
+preplace netloc axi_iic_0_IIC 1 7 2 NJ -280 NJ
+preplace netloc general_reg_controll_0_Board_GPIO_1 1 7 2 NJ 710 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 7 1 N 1050
+preplace netloc uart16550_wrapper_0_UART 1 7 2 NJ 230 NJ
+preplace netloc dma_controller_0_interface_aximm 1 4 4 1510 -150 NJ -150 NJ -150 2710
+preplace netloc general_reg_controll_0_PS2 1 7 2 NJ 690 NJ
+preplace netloc axi_protocol_convert_0_M_AXI 1 4 1 1490 -330n
+preplace netloc dma_controller_0_LCD_DMA 1 6 2 2360 620 2680
+preplace netloc Mariver_CPU_0_interface_aximm 1 2 1 450 -410n
+preplace netloc axi_interconnect_0_M00_AXI 1 5 2 1830 -420 N
+preplace netloc lcd_controller_0_GRC_PORT 1 6 2 2360 630 2670
+preplace netloc axi_interconnect_0_M01_AXI 1 5 2 1870 -280 N
+preplace netloc vga_controller_0_DMA_AXI 1 4 4 1510 1490 NJ 1490 NJ 1490 2680
+preplace netloc axi_clock_converter_0_M_AXI 1 3 1 810 -350n
+preplace netloc axi_protocol_convert_3_M_AXI 1 6 1 N 1360
+preplace netloc axi_interconnect_0_M02_AXI 1 5 1 1880 10n
+preplace netloc axi_interconnect_0_M03_AXI 1 5 2 1890 270 2340J
+preplace netloc axi_interconnect_0_M04_AXI 1 5 2 1840J 300 2290
+preplace netloc axi_interconnect_0_M05_AXI 1 5 2 1830J 280 2320
+preplace netloc axi_interconnect_0_M06_AXI 1 5 2 NJ 290 2280
+preplace netloc axi_interconnect_0_M07_AXI 1 5 2 NJ 310 2270
+preplace netloc axi_interconnect_0_M08_AXI 1 5 1 1830 330n
+levelinfo -pg 1 -720 -100 270 640 1300 1680 2110 2520 2870 3000
+pagesize -pg 1 -db -bbox -sgen -840 -970 3170 1700
+"
+}
+0

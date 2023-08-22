@@ -1,0 +1,245 @@
+set_property PACKAGE_PIN V2 [get_ports {MII_0_rxd[2]}]
+set_property PACKAGE_PIN V4 [get_ports {MII_0_rxd[1]}]
+set_property PACKAGE_PIN V1 [get_ports {MII_0_rxd[0]}]
+set_property PACKAGE_PIN W16 [get_ports MII_0_rx_er]
+set_property PACKAGE_PIN AE22 [get_ports MII_0_rx_dv]
+set_property PACKAGE_PIN V3 [get_ports {MII_0_rxd[3]}]
+set_property PACKAGE_PIN AC19 [get_ports clk_in1_0]
+set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets clk_in1_0]
+create_clock -period 10.000 -name clk_in1_0 -waveform {0.000 5.000} [get_ports clk_in1_0]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_in1_0]
+
+
+set_property PACKAGE_PIN Y3 [get_ports resetn_0]
+set_property IOSTANDARD LVCMOS33 [get_ports resetn_0]
+
+set_property PACKAGE_PIN W14 [get_ports {MII_0_txd[3]}]
+set_property PACKAGE_PIN W15 [get_ports {MII_0_txd[2]}]
+set_property PACKAGE_PIN AE18 [get_ports {MII_0_txd[1]}]
+set_property PACKAGE_PIN AF18 [get_ports {MII_0_txd[0]}]
+set_property PACKAGE_PIN Y15 [get_ports MII_0_col]
+set_property PACKAGE_PIN AF20 [get_ports MII_0_crs]
+set_property PACKAGE_PIN AE26 [get_ports MII_0_rst_n]
+set_property PACKAGE_PIN AA19 [get_ports MII_0_rx_clk]
+set_property PACKAGE_PIN AB21 [get_ports MII_0_tx_clk]
+set_property PACKAGE_PIN AA15 [get_ports MII_0_tx_en]
+set_property PACKAGE_PIN W3 [get_ports MDIO_0_mdc]
+set_property PACKAGE_PIN W1 [get_ports MDIO_0_mdio_io]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_col]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_crs]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_rx_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_rx_dv]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_rx_er]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_tx_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports MII_0_tx_en]
+set_property IOSTANDARD LVCMOS33 [get_ports MDIO_0_mdc]
+set_property IOSTANDARD LVCMOS33 [get_ports MDIO_0_mdio_io]
+
+
+
+
+
+#LED
+set_property PACKAGE_PIN K23 [get_ports {Board_GPIO_1_0_led[0]}]
+set_property PACKAGE_PIN J21 [get_ports {Board_GPIO_1_0_led[1]}]
+set_property PACKAGE_PIN H23 [get_ports {Board_GPIO_1_0_led[2]}]
+set_property PACKAGE_PIN J19 [get_ports {Board_GPIO_1_0_led[3]}]
+set_property PACKAGE_PIN G9 [get_ports {Board_GPIO_1_0_led[4]}]
+set_property PACKAGE_PIN J26 [get_ports {Board_GPIO_1_0_led[5]}]
+set_property PACKAGE_PIN J23 [get_ports {Board_GPIO_1_0_led[6]}]
+set_property PACKAGE_PIN J8 [get_ports {Board_GPIO_1_0_led[7]}]
+set_property PACKAGE_PIN H8 [get_ports {Board_GPIO_1_0_led[8]}]
+set_property PACKAGE_PIN G8 [get_ports {Board_GPIO_1_0_led[9]}]
+set_property PACKAGE_PIN F7 [get_ports {Board_GPIO_1_0_led[10]}]
+set_property PACKAGE_PIN A4 [get_ports {Board_GPIO_1_0_led[11]}]
+set_property PACKAGE_PIN A5 [get_ports {Board_GPIO_1_0_led[12]}]
+set_property PACKAGE_PIN A3 [get_ports {Board_GPIO_1_0_led[13]}]
+set_property PACKAGE_PIN D5 [get_ports {Board_GPIO_1_0_led[14]}]
+set_property PACKAGE_PIN H7 [get_ports {Board_GPIO_1_0_led[15]}]
+
+#led_rg 0/1
+set_property PACKAGE_PIN G7 [get_ports {Board_GPIO_1_0_led_rg0[0]}]
+set_property PACKAGE_PIN F8 [get_ports {Board_GPIO_1_0_led_rg0[1]}]
+set_property PACKAGE_PIN B5 [get_ports {Board_GPIO_1_0_led_rg1[0]}]
+set_property PACKAGE_PIN D6 [get_ports {Board_GPIO_1_0_led_rg1[1]}]
+
+#NUM
+set_property PACKAGE_PIN D3 [get_ports {Board_GPIO_1_0_num_csn[7]}]
+set_property PACKAGE_PIN D25 [get_ports {Board_GPIO_1_0_num_csn[6]}]
+set_property PACKAGE_PIN D26 [get_ports {Board_GPIO_1_0_num_csn[5]}]
+set_property PACKAGE_PIN E25 [get_ports {Board_GPIO_1_0_num_csn[4]}]
+set_property PACKAGE_PIN E26 [get_ports {Board_GPIO_1_0_num_csn[3]}]
+set_property PACKAGE_PIN G25 [get_ports {Board_GPIO_1_0_num_csn[2]}]
+set_property PACKAGE_PIN G26 [get_ports {Board_GPIO_1_0_num_csn[1]}]
+set_property PACKAGE_PIN H26 [get_ports {Board_GPIO_1_0_num_csn[0]}]
+
+set_property PACKAGE_PIN A2 [get_ports {Board_GPIO_1_0_num_a_g[0]}]
+set_property PACKAGE_PIN D4 [get_ports {Board_GPIO_1_0_num_a_g[1]}]
+set_property PACKAGE_PIN E5 [get_ports {Board_GPIO_1_0_num_a_g[2]}]
+set_property PACKAGE_PIN B4 [get_ports {Board_GPIO_1_0_num_a_g[3]}]
+set_property PACKAGE_PIN B2 [get_ports {Board_GPIO_1_0_num_a_g[4]}]
+set_property PACKAGE_PIN E6 [get_ports {Board_GPIO_1_0_num_a_g[5]}]
+set_property PACKAGE_PIN C3 [get_ports {Board_GPIO_1_0_num_a_g[6]}]
+set_property PACKAGE_PIN C4 [get_ports {Board_GPIO_1_0_num_a_g[7]}]
+#set_property PACKAGE_PIN C4 :DP
+
+#switch
+set_property PACKAGE_PIN AC21 [get_ports {Board_GPIO_1_0_switch[7]}]
+set_property PACKAGE_PIN AD24 [get_ports {Board_GPIO_1_0_switch[6]}]
+set_property PACKAGE_PIN AC22 [get_ports {Board_GPIO_1_0_switch[5]}]
+set_property PACKAGE_PIN AC23 [get_ports {Board_GPIO_1_0_switch[4]}]
+set_property PACKAGE_PIN AB6 [get_ports {Board_GPIO_1_0_switch[3]}]
+set_property PACKAGE_PIN W6 [get_ports {Board_GPIO_1_0_switch[2]}]
+set_property PACKAGE_PIN AA7 [get_ports {Board_GPIO_1_0_switch[1]}]
+set_property PACKAGE_PIN Y6 [get_ports {Board_GPIO_1_0_switch[0]}]
+
+#btn_key
+set_property PACKAGE_PIN V8 [get_ports {Board_GPIO_1_0_btn_key_col[0]}]
+set_property PACKAGE_PIN V9 [get_ports {Board_GPIO_1_0_btn_key_col[1]}]
+set_property PACKAGE_PIN Y8 [get_ports {Board_GPIO_1_0_btn_key_col[2]}]
+set_property PACKAGE_PIN V7 [get_ports {Board_GPIO_1_0_btn_key_col[3]}]
+set_property PACKAGE_PIN U7 [get_ports {Board_GPIO_1_0_btn_key_row[0]}]
+set_property PACKAGE_PIN W8 [get_ports {Board_GPIO_1_0_btn_key_row[1]}]
+set_property PACKAGE_PIN Y7 [get_ports {Board_GPIO_1_0_btn_key_row[2]}]
+set_property PACKAGE_PIN AA8 [get_ports {Board_GPIO_1_0_btn_key_row[3]}]
+
+#btn_step
+set_property PACKAGE_PIN Y5 [get_ports {Board_GPIO_1_0_btn_step[0]}]
+set_property PACKAGE_PIN V6 [get_ports {Board_GPIO_1_0_btn_step[1]}]
+
+
+set_property PACKAGE_PIN F3 [get_ports {Board_GPIO_1_0_dot_r[0]}]
+set_property PACKAGE_PIN F4 [get_ports {Board_GPIO_1_0_dot_r[1]}]
+set_property PACKAGE_PIN C2 [get_ports {Board_GPIO_1_0_dot_r[2]}]
+set_property PACKAGE_PIN F5 [get_ports {Board_GPIO_1_0_dot_r[3]}]
+set_property PACKAGE_PIN H3 [get_ports {Board_GPIO_1_0_dot_r[4]}]
+set_property PACKAGE_PIN B1 [get_ports {Board_GPIO_1_0_dot_r[5]}]
+set_property PACKAGE_PIN G4 [get_ports {Board_GPIO_1_0_dot_r[6]}]
+set_property PACKAGE_PIN J5 [get_ports {Board_GPIO_1_0_dot_r[7]}]
+
+
+set_property PACKAGE_PIN G6 [get_ports {Board_GPIO_1_0_dot_c[0]}]
+set_property PACKAGE_PIN G5 [get_ports {Board_GPIO_1_0_dot_c[1]}]
+set_property PACKAGE_PIN H6 [get_ports {Board_GPIO_1_0_dot_c[2]}]
+set_property PACKAGE_PIN J4 [get_ports {Board_GPIO_1_0_dot_c[3]}]
+set_property PACKAGE_PIN J6 [get_ports {Board_GPIO_1_0_dot_c[4]}]
+set_property PACKAGE_PIN E3 [get_ports {Board_GPIO_1_0_dot_c[5]}]
+set_property PACKAGE_PIN C1 [get_ports {Board_GPIO_1_0_dot_c[6]}]
+set_property PACKAGE_PIN H4 [get_ports {Board_GPIO_1_0_dot_c[7]}]
+
+
+set_property PACKAGE_PIN AD1 [get_ports PS2_0_ps2_kdat]
+set_property PACKAGE_PIN Y2 [get_ports PS2_0_ps2_kclk]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_led[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_led_rg0[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_led_rg1[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_num_a_g[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_num_csn[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_switch[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_btn_key_col[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_btn_key_row[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_btn_step[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports PS2_0_ps2_kclk]
+set_property IOSTANDARD LVCMOS33 [get_ports PS2_0_ps2_kdat]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_dot_r[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Board_GPIO_1_0_dot_c[*]}]
+
+
+set_property PACKAGE_PIN F23 [get_ports UART_0_sin]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_sin]
+set_property PACKAGE_PIN H19 [get_ports UART_0_sout]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_sout]
+
+
+set_property PACKAGE_PIN J25 [get_ports LCD_0_lcd_rst]
+set_property PACKAGE_PIN H18 [get_ports LCD_0_lcd_cs]
+set_property PACKAGE_PIN K16 [get_ports LCD_0_lcd_rs]
+set_property PACKAGE_PIN L8 [get_ports LCD_0_lcd_wr]
+set_property PACKAGE_PIN K8 [get_ports LCD_0_lcd_rd]
+set_property PACKAGE_PIN J15 [get_ports LCD_0_lcd_bl_ctr]
+
+
+set_property PACKAGE_PIN H9 [get_ports {LCD_0_lcd_db[0]}]
+set_property PACKAGE_PIN K17 [get_ports {LCD_0_lcd_db[1]}]
+set_property PACKAGE_PIN J20 [get_ports {LCD_0_lcd_db[2]}]
+set_property PACKAGE_PIN M17 [get_ports {LCD_0_lcd_db[3]}]
+set_property PACKAGE_PIN L17 [get_ports {LCD_0_lcd_db[4]}]
+set_property PACKAGE_PIN L18 [get_ports {LCD_0_lcd_db[5]}]
+set_property PACKAGE_PIN L15 [get_ports {LCD_0_lcd_db[6]}]
+set_property PACKAGE_PIN M15 [get_ports {LCD_0_lcd_db[7]}]
+set_property PACKAGE_PIN M16 [get_ports {LCD_0_lcd_db[8]}]
+set_property PACKAGE_PIN L14 [get_ports {LCD_0_lcd_db[9]}]
+set_property PACKAGE_PIN M14 [get_ports {LCD_0_lcd_db[10]}]
+set_property PACKAGE_PIN F22 [get_ports {LCD_0_lcd_db[11]}]
+set_property PACKAGE_PIN G22 [get_ports {LCD_0_lcd_db[12]}]
+set_property PACKAGE_PIN G21 [get_ports {LCD_0_lcd_db[13]}]
+set_property PACKAGE_PIN H24 [get_ports {LCD_0_lcd_db[14]}]
+set_property PACKAGE_PIN J16 [get_ports {LCD_0_lcd_db[15]}]
+
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_rst]
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_cs]
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_rs]
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_rd]
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_wr]
+set_property IOSTANDARD LVCMOS33 [get_ports {LCD_0_lcd_db[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports LCD_0_lcd_bl_ctr]
+
+
+set_property PACKAGE_PIN H21 [get_ports IIC_0_scl_io]
+set_property PACKAGE_PIN J24 [get_ports IIC_0_sda_io]
+set_property PACKAGE_PIN L19 [get_ports ts_int_0]
+set_property PACKAGE_PIN G24 [get_ports ts_rstn_0]
+
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports ts_int_0]
+set_property IOSTANDARD LVCMOS33 [get_ports ts_rstn_0]
+
+set_property PACKAGE_PIN U5 [get_ports VGA_0_vga_hsync]
+set_property PACKAGE_PIN U6 [get_ports VGA_0_vga_vsync]
+
+set_property PACKAGE_PIN T3 [get_ports {VGA_0_vga_r[0]}]
+set_property PACKAGE_PIN T2 [get_ports {VGA_0_vga_r[1]}]
+set_property PACKAGE_PIN U2 [get_ports {VGA_0_vga_r[2]}]
+set_property PACKAGE_PIN U4 [get_ports {VGA_0_vga_r[3]}]
+
+set_property PACKAGE_PIN R2 [get_ports {VGA_0_vga_g[0]}]
+set_property PACKAGE_PIN R1 [get_ports {VGA_0_vga_g[1]}]
+set_property PACKAGE_PIN U1 [get_ports {VGA_0_vga_g[2]}]
+set_property PACKAGE_PIN R5 [get_ports {VGA_0_vga_g[3]}]
+
+set_property PACKAGE_PIN P5 [get_ports {VGA_0_vga_b[0]}]
+set_property PACKAGE_PIN N1 [get_ports {VGA_0_vga_b[1]}]
+set_property PACKAGE_PIN P1 [get_ports {VGA_0_vga_b[2]}]
+set_property PACKAGE_PIN P3 [get_ports {VGA_0_vga_b[3]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports VGA_0_vga_hsync]
+set_property IOSTANDARD LVCMOS33 [get_ports VGA_0_vga_vsync]
+set_property IOSTANDARD LVCMOS33 [get_ports {VGA_0_vga_r[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {VGA_0_vga_g[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {VGA_0_vga_b[*]}]
+
+
+set_false_path -from [get_clocks clk_vga_mariver_soc_bd_clk_wiz_0_0] -to [get_clocks clk_pehi_mariver_soc_bd_clk_wiz_0_0]
+set_false_path -from [get_clocks clk_pehi_mariver_soc_bd_clk_wiz_0_0] -to [get_clocks clk_vga_mariver_soc_bd_clk_wiz_0_0]
+
+set_property PACKAGE_PIN AE25 [get_ports SPI_0_0_sck_io]
+set_property PACKAGE_PIN U22 [get_ports SPI_0_0_io1_io]
+set_property PACKAGE_PIN AD26 [get_ports SPI_0_0_io0_io]
+set_property PACKAGE_PIN T20 [get_ports {SPI_0_0_ss_io[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {SPI_0_0_ss_io[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI_0_0_io0_io]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI_0_0_io1_io]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI_0_0_sck_io]
